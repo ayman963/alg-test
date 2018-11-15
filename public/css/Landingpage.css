@@ -1,0 +1,265 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: url(../img/silhouette-191103.jpg) no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  float: left;
+  min-width: 360px;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#wrapper {
+  background-color: rgba(0, 0, 0, 0.7);
+  margin: 0;
+  position: relative;
+  min-height: 100%;
+}
+
+/*HEADER*/
+
+.header {
+  background-color: rgb(255, 122, 110);
+  color: white;
+  height: 80px;
+  padding: 10px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.75);
+}
+
+h1,
+h2 {
+  font-family: "Zilla Slab", serif;
+  font-size: 25px;
+}
+
+.menulogo2 {
+  margin-top: 30px;
+  width: 100px;
+  float: right;
+}
+
+/*NAVIGATION*/
+
+.menulogo {
+  width: 50px;
+  float: left;
+}
+
+.menubutton {
+  width: 60px;
+  float: left;
+  margin-top: 15px;
+  font-family: "Zilla Slab", serif;
+}
+
+.dropbtn {
+  margin-top: 20px;
+  background-color: rgb(255, 122, 110);
+  color: white;
+  padding: 0px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  float: left;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown a {
+  text-decoration: none;
+  padding: 12px 16px;
+  display: block;
+  color: white;
+  font-family: "Zilla Slab", serif;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgb(51, 173, 255);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/*INTRO TEXT*/
+
+.intro {
+  margin-top: 30px;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-family: "Open Sans", serif;
+}
+
+.intro > p {
+  margin: 10%;
+  width: 80%;
+  padding: 0;
+}
+
+/*ICONS*/
+
+img {
+  width: 100%;
+}
+
+.smiley1,
+.smiley2 {
+  width: 20%;
+  margin-top: 10px;
+  margin-left: 43%;
+}
+
+.pen {
+  margin-top: 0px;
+  width: 100%;
+}
+
+/*SCHRITT BOX*/
+
+.steps {
+  width: 100%;
+  display: flex;
+}
+
+.stepbutton {
+  background-color: rgb(51, 173, 255);
+  border-radius: 50%;
+  border: solid 3px white;
+  margin-top: -50px;
+  margin-left: 25%;
+  width: 50%;
+}
+
+.col1,
+.col2 {
+  width: 34%;
+  margin: 3%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.box1 > p,
+.box2 > p {
+  font-family: "Open Sans", "sans-serif";
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.boxtitel {
+  font-family: "Zilla Slab", serif;
+  font-size: 16px;
+}
+
+.pen {
+  width: 10%;
+  padding: 5%;
+}
+
+.box1,
+.box2 {
+  color: black;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/*FOOTER*/
+
+#copyright {
+  color: white;
+  text-align: center;
+  font-family: "Open Sans", serif;
+  font-size: 10px;
+  margin-top: 5px;
+  width: 100%;
+  align-self: flex-end;
+  margin-bottom: 10px;
+}
+
+#Footer {
+  margin-top: 10%;
+  background-color: rgb(255, 122, 110);
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 15%;
+  box-shadow: 1px -1px 3px rgba(0, 0, 0, 0.75);
+  display: flex;
+  flex-direction: column;
+}
+
+.footercontent {
+  display: flex;
+  flex-direction: row;
+}
+
+.footerlinks {
+  text-decoration: none;
+  list-style-type: disc;
+}
+
+.linksfooter {
+  width: 40%;
+  float: left;
+  margin: 2% 5%;
+  list-style: none;
+  color: white;
+  text-decoration-style: none;
+}
+
+.linksfooter > a {
+  color: white;
+  text-decoration: none;
+  font-family: "Open Sans", serif;
+  font-size: 14px;
+}
+
+.footersocial {
+  width: 33.3%;
+}
+
+.spaltelinks {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.spalterechts {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.spalterechts > div {
+  display: flex;
+  flex-direction: row;
+}
+
+#footerlogo {
+  width: 90%;
+  padding-top: 10px;
+  margin-left: 10px;
+}

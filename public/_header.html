@@ -1,0 +1,109 @@
+<style>
+  /*HEADER*/
+
+  .header {
+    background-color: rgb(255, 122, 110);
+    color: white;
+    height: 80px;
+    padding: 10px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.75);
+  }
+
+  h1,
+  h2 {
+    font-family: "Zilla Slab", serif;
+    font-size: 25px;
+  }
+
+  .menulogo2 {
+    margin-top: 30px;
+    width: 100px;
+    float: right;
+  }
+
+  /*NAVIGATION*/
+
+  .menulogo {
+    width: 50px;
+    float: left;
+  }
+
+  .menubutton {
+    width: 60px;
+    float: left;
+    margin-top: 15px;
+    font-family: "Zilla Slab", serif;
+  }
+
+  .dropbtn {
+    margin-top: 20px;
+    background-color: rgb(255, 122, 110);
+    color: white;
+    padding: 0px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    float: left;
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown a {
+    text-decoration: none;
+    padding: 12px 16px;
+    display: block;
+    color: white;
+    font-family: "Zilla Slab", serif;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(51, 173, 255);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  /*ICONS*/
+
+  img {
+    width: 100%;
+  }
+</style>
+
+<!-- HTML -->
+
+<div class="header">
+  <div class="dropdown">
+    <button class="dropbtn">
+      <div class="menulogo">
+        <img src="../IMG/logoohneschrift.png" alt="Logo2" />
+      </div>
+      <div class="menubutton">MENÜ</div>
+    </button>
+
+    <div class="dropdown-content">
+      <a href="Ausbildomat.html">Ausbildomat</a>
+      <a href="Branchen.html">Branchen</a>
+      <a href="BewerbungsCheck.html">Bewerbungs-Check</a>
+      <a href="Portal.html">Portal</a>
+      <a href="MeinProfil.html">Mein Profil</a>
+      <a href="MeinProfil.html">Für Unternehmen</a>
+      <a href="Landingpage.html">Startseite</a>
+    </div>
+  </div>
+
+  <div class="menulogo2">
+    <a href="Landingpage.html"
+      ><img src="../IMG/logonurschrift.png" alt="Logo2"
+    /></a>
+  </div>
+</div>

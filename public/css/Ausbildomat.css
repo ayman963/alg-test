@@ -1,0 +1,166 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.5);
+  float: left;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+html {
+  background: url(../img/jake-hinds-373446.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+img {
+  width: 100%;
+}
+
+#wrapper {
+  margin: 0;
+  position: relative;
+  min-height: 100%;
+}
+
+/*HEADER*/
+
+#header {
+  background-color: rgb(255, 122, 110);
+  color: white;
+  height: 80px;
+  padding: 10px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.75);
+}
+
+h1,
+h2 {
+  font-family: "Zilla Slab", serif;
+  font-size: 25px;
+}
+
+#menulogo2 {
+  margin-top: 30px;
+  width: 100px;
+  float: right;
+}
+
+/*NAVIGATION*/
+
+#menulogo {
+  width: 50px;
+  float: left;
+}
+
+#menubutton {
+  width: 60px;
+  float: left;
+  margin-top: 15px;
+  font-family: "Zilla Slab", serif;
+}
+
+.dropbtn {
+  margin-top: 20px;
+  background-color: rgb(255, 122, 110);
+  color: white;
+  padding: 0px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  float: left;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown a {
+  text-decoration: none;
+  padding: 12px 16px;
+  display: block;
+  color: white;
+  font-family: "Zilla Slab", serif;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgb(51, 173, 255);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.ausbildomatkasten {
+  padding: 40px;
+  background-color: rgb(255, 212, 0);
+
+  border-radius: 5px;
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.75);
+  max-width: 480px;
+  margin: 20px;
+  margin-top: 50px;
+}
+
+.kastentitel {
+  background-color: rgb(51, 173, 255);
+  padding: 5%;
+  width: 70%;
+  margin-left: 10%;
+  margin-top: -70px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.75);
+
+  font-family: "Zilla Slab", serif;
+  color: white;
+  font-weight: 600;
+  text-align: center;
+  font-size: 26px;
+}
+
+.frage {
+  padding-top: 15%;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: center;
+  font-family: "Zilla Slab", serif;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.buttons {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.jabutton {
+  width: 75px;
+}
+
+.neinbutton {
+  width: 75px;
+}
+
+.swipebutton {
+  width: 30%;
+  margin-left: 35%;
+}

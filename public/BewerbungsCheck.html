@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>www.ausbildung-leicht-gemacht.de</title>
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Zilla+Slab:400,600,700"
+      rel="stylesheet"
+    />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script>
+      $(document).ready(function() {
+        $(".arrow1").click(function() {
+          $(".branchkontent1").toggle();
+        });
+        $(".arrow2").click(function() {
+          $(".branchkontent2").toggle();
+        });
+        $(".arrow3").click(function() {
+          $(".branchkontent3").toggle();
+        });
+        $(".arrow4").click(function() {
+          $(".branchkontent4").toggle();
+        });
+      });
+    </script>
+
+    <link href="../CSS/Branchen.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <div id="wrapper">
+      <div id="header">
+        <div class="dropdown">
+          <button class="dropbtn">
+            <div id="menulogo">
+              <img src="../IMG/logoohneschrift.png" alt="Logo2" />
+            </div>
+            <div id="menubutton">MENÜ</div>
+          </button>
+
+          <div class="dropdown-content">
+            <a href="Ausbildomat.html">Ausbildomat</a>
+            <a href="Branchen.html">Branchen</a>
+            <a href="BewerbungsCheck.html">Bewerbungs-Check</a>
+            <a href="Portal.html">Portal</a>
+            <a href="MeinProfil.html">Mein Profil</a>
+            <a href="Landingpage.html">Startseite</a>
+          </div>
+        </div>
+
+        <div id="menulogo2">
+          <a href="Landingpage.html"
+            ><img src="../IMG/logonurschrift.png" alt="Logo2"
+          /></a>
+        </div>
+      </div>
+
+      <div class="Branch">
+        <div class="icon"><img src="../IMG/jabutton.png" alt="" /></div>
+
+        <div class="titel">Tipps & Tricks</div>
+
+        <button class="arrow1">
+          <img src="../IMG/arrowdown.png" alt="arrow down" />
+        </button>
+      </div>
+      <div class="branchkontent1">
+        <div class="beruf">
+          <img src="../IMG/pic.jpg" alt="" />
+          <p class="beruftitel">
+            Lebenslauf:<br />
+            Do's & Dont's
+          </p>
+        </div>
+
+        <div class="beruf">
+          <img src="../IMG/pic.jpg" alt="" />
+          <p class="beruftitel">
+            Anschreiben:<br />
+            Do's & Dont's
+          </p>
+        </div>
+      </div>
+
+      <div class="Branch">
+        <div class="icon"><img src="../IMG/jabutton.png" alt="" /></div>
+
+        <div class="titel">
+          Bewerbungs-<br />
+          gespräch
+        </div>
+
+        <button class="arrow2">
+          <img src="../IMG/arrowdown.png" alt="arrow down" />
+        </button>
+      </div>
+      <div class="branchkontent2">
+        <div class="beruf">
+          <img src="../IMG/pic.jpg" alt="" />
+          <p class="beruftitel">Titel</p>
+        </div>
+
+        <div class="beruf">
+          <img src="../IMG/pic.jpg" alt="" />
+          <p class="beruftitel">Titel</p>
+        </div>
+      </div>
+
+      <div class="Branch">
+        <div class="icon"><img src="../IMG/jabutton.png" alt="" /></div>
+
+        <div class="titel">
+          Muster-<br />
+          Anschreiben
+        </div>
+
+        <button class="download">
+          <img src="../IMG/download.png" alt="arrow down" />
+        </button>
+      </div>
+      <div class="branchkontent3">Kontent</div>
+
+      <div class="Branch">
+        <div class="icon"><img src="../IMG/jabutton.png" alt="" /></div>
+
+        <div class="titel">
+          Muster-<br />
+          Lebenlauf
+        </div>
+
+        <button class="download">
+          <img src="../IMG/download.png" alt="arrow down" />
+        </button>
+      </div>
+      <div class="branchkontent4">Kontent</div>
+    </div>
+  </body>
+</html>
